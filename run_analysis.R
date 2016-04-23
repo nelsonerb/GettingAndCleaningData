@@ -22,6 +22,9 @@ run_analysis <- function() {
     # output summary data
     mean_data <- all_data %>% group_by(subject,activity) %>% summarise_each(funs(mean))
     write.csv(mean_data,file = "mean_data.csv")
+    
+    # return the result
+    mean_data
 
 }
 
