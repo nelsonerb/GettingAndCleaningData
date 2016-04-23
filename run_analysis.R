@@ -1,3 +1,6 @@
+# load dependent libraries
+library(dplyr)
+
 # reads, cleans and combines training and test datasets
 run_analysis <- function() {
     # change working directory to dataset directory

@@ -4,11 +4,15 @@ This project fulfills the requirements for the Coursera Getting and Cleaning
 course. The purpose of this project is to ‘tidy’ input data to support further
 analysis. Input files combined and cleaned using the run_analysis.R script. Only means and standard deviation measures are kept from the original data set. 
 
-# Running the project
+# Running the analysis
 
-The analysis was run by loading the ‘run_analysis.R’ script in R Studio and then executing the run_analysis function from the current directory.
+The following steps are used to run the analysis
 
-# List of Files and Directories
+1. Extract the UCI_HAR_dataset.zip file into the current directory
+2. load run_analysis.R into R Studio
+3. execute the run_analysis function
+
+# List of Extracted Files and Directories
 
 1. Root Directory
   * run_analysis.R main r program file script for project
